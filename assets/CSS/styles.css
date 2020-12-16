@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background: linear-gradient(to top, #000 ,#000);
+    background-size: cover;
+    color: white;
+}
+
+.imgDetail:hover{
+    opacity: 0.8;
+}
+header{
+    background-position: center bottom;
+    background-size: 100%, 100%, cover;
+    background-attachment:fixed;
+    width: 100%;
+    height: 200px;
+}
+
+h1, h2, h3{
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+h1{
+    font-size: 5rem;
+    color: darkred;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: darkred;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.listImg{
+    border-radius: 50%;
+
+}
+
+img{
+    height : 200px;
+    width : 200px;
+}
+
+.detail, .update{
+    border-radius: 30px;
+    width: 300px;
+}
+
+
+.box{
+    background: #000 ;
+    width: 80%;
+    z-index:2 ;
+    box-shadow: 10px 5px 5px #000;
+}
+
+.box, .liste{
+    width: 100%;
+}
+
+.custom-file{
+    width: 300px;
+}
+
+.add, .return{
+    height: 45px;
+    width: 45px;
+    border-radius: 0%;
+}
+
+
+
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: darkred !important;
+    background-color: black !important;
+    border: 1px solid #262626 !important;
+}
+.page-link:hover {
+    z-index: 2;
+    color: darkred !important;
+    text-decoration: none;
+    background-color: gray !important;
+    border-color: darkred;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: darkred;
+    background-color: gray !important;
+    border-color: #353535;
+}
